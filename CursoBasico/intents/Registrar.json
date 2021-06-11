@@ -1,0 +1,224 @@
+{
+  "id": "b313d373-0be0-4c37-84ff-90d796fc9059",
+  "name": "Registrar",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "9e8bb5dd-a55a-4c7d-9f79-982d5d4f1083",
+          "name": "name",
+          "required": true,
+          "dataType": "@name",
+          "value": "$name",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "¿Cual es tu nombre?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "b86f0fde-d8c4-4418-b58a-0bb2c0f6508e",
+          "name": "phone-number",
+          "required": true,
+          "dataType": "@sys.phone-number",
+          "value": "$phone-number",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "Proporcione su número telefónico"
+            },
+            {
+              "lang": "es",
+              "value": "Cual es tu telefono"
+            },
+            {
+              "lang": "es",
+              "value": "Serias tan amable de proporcionar tu numero de celular"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "226d59ca-e673-476c-b62f-2c7fc60baed0",
+          "name": "email",
+          "required": true,
+          "dataType": "@sys.email",
+          "value": "$email",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "¿Cual es tu correo electronico?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "3bf190e7-4b96-454a-b5fd-1953719b2a83",
+          "name": "Servicios",
+          "required": true,
+          "dataType": "@Servicios",
+          "value": "$Servicios",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "¿Que servicio te gustaria reservar?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "986cf0c4-384d-4bce-ad64-0e571d496308",
+          "name": "date",
+          "required": true,
+          "dataType": "@sys.date",
+          "value": "$date",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "¿Qué día le gustaria la cita?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "c4c3e966-1177-4e68-a55f-7821470d2c6e",
+          "name": "time",
+          "required": true,
+          "dataType": "@sys.time",
+          "value": "$time",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "¿A qué hora requiere la cita? Le recordamos que tenemos servicio de 7 a.m. a 3 p.m."
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "347b06e4-01e6-43bb-a812-70aa467cd82a",
+          "name": "first",
+          "required": true,
+          "dataType": "@first",
+          "value": "$first",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "es",
+              "value": "¿Es la primera vez que te registras aqui?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Tu registro ha sido exitoso",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "es",
+          "condition": ""
+        },
+        {
+          "type": "basic_card",
+          "platform": "google",
+          "subtitle": "Chatbot",
+          "title": "Cody-VCP",
+          "buttons": [
+            {
+              "openUrlAction": {
+                "url": "https://optimistic-benz-805d46.netlify.app/",
+                "urlTypeHint": "URL_TYPE_HINT_UNSPECIFIED"
+              },
+              "title": "https://optimistic-benz-805d46.netlify.app/"
+            }
+          ],
+          "textToSpeech": "",
+          "formattedText": "Tu registro ha sido exitoso",
+          "image": {
+            "url": "https://image.freepik.com/vector-gratis/familia-dientes-kawaii-personajes-dibujos-animados-lindos_74565-410.jpg",
+            "accessibilityText": "Clínica Dental Jeitcol"
+          },
+          "lang": "es",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "Tu registro ha sido exitoso"
+          ],
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "GOOGLE_ASSISTANT_WELCOME"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

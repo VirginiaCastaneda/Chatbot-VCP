@@ -1,0 +1,9 @@
+{
+  "id": "5951d163-68a0-4153-8c49-b84ff01054ed",
+  "name": "type-of-hacker",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

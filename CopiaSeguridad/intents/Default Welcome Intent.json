@@ -1,0 +1,56 @@
+{
+  "id": "944a44f2-f4c0-4478-bd38-06b13a1cab65",
+  "name": "Default Welcome Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "speech": [
+            "¡Hola, Soy Cody Hacks y te ayudaré a realizar tu registro!",
+            "¡Hey, Me llamo Cody Hacks y te voy a ayudar con tu registro!",
+            "Bienvenido al Hack de CF mi nombre es Cody Hacks y te ayudaré a registrarte."
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es-419",
+          "speech": [
+            "¡Hola, Soy Cody Hacks y te ayudaré a realizar tu registro!",
+            "¡Hey, Me llamo Cody Hacks y te voy a ayudar con tu registro!",
+            "Bienvenido al Hack de CF mi nombre es Cody Hacks y te ayudaré a registrarte."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    },
+    {
+      "name": "GOOGLE_ASSISTANT_WELCOME"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

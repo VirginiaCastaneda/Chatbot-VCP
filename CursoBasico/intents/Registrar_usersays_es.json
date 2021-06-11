@@ -1,0 +1,315 @@
+[
+  {
+    "id": "12abd643-ed3b-4d13-8895-a692701f7ce7",
+    "data": [
+      {
+        "text": "agendar ",
+        "userDefined": false
+      },
+      {
+        "text": "una",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " cita",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "2eaf4028-9331-4676-bf1a-bc1f6d451cb4",
+    "data": [
+      {
+        "text": "quiero",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " hacer ",
+        "userDefined": false
+      },
+      {
+        "text": "limpieza",
+        "meta": "@Servicios",
+        "alias": "Servicios",
+        "userDefined": true
+      },
+      {
+        "text": " de ",
+        "userDefined": false
+      },
+      {
+        "text": "mis",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " dientes",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "811913e7-e1c6-42a2-9240-1bd47af40d24",
+    "data": [
+      {
+        "text": "7",
+        "meta": "@sys.time",
+        "alias": "time",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "pm",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "547655b3-48c8-4507-bf11-22599479da2f",
+    "data": [
+      {
+        "text": "si",
+        "meta": "@first",
+        "alias": "first",
+        "userDefined": true
+      },
+      {
+        "text": " varias veces",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "3344df73-0ffa-4813-aa28-fbde88545a25",
+    "data": [
+      {
+        "text": "No",
+        "meta": "@first",
+        "alias": "first",
+        "userDefined": true
+      },
+      {
+        "text": ", ",
+        "userDefined": false
+      },
+      {
+        "text": "es",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "mi",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "primera",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " vez",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "bd5c8a10-481f-48c4-9e0f-5e38057d584d",
+    "data": [
+      {
+        "text": "hoy",
+        "meta": "@sys.date",
+        "alias": "date",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "2f5247dd-4083-4930-a85f-7af8faa059b6",
+    "data": [
+      {
+        "text": "mañana",
+        "meta": "@sys.date",
+        "alias": "date",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "a57d7f61-0f0c-448a-8569-2e9c1a3d8ed1",
+    "data": [
+      {
+        "text": "es ",
+        "userDefined": false
+      },
+      {
+        "text": "vike@gmail.com",
+        "meta": "@sys.email",
+        "alias": "email",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "288c606d-ac0a-48ab-a9fa-1a1ec24dafe5",
+    "data": [
+      {
+        "text": "es",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "2371009867",
+        "meta": "@sys.phone-number",
+        "alias": "phone-number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "d46b4cee-9753-49b5-a6fc-37b2d84c8fb6",
+    "data": [
+      {
+        "text": "mi",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " numero de ",
+        "userDefined": false
+      },
+      {
+        "text": "teléfono",
+        "meta": "@sys.phone-number",
+        "alias": "phone-number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "afe10dea-ad52-425c-9115-1eabbb39bc30",
+    "data": [
+      {
+        "text": "me quiero registrar en ",
+        "userDefined": false
+      },
+      {
+        "text": "una",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " cita",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "8054425e-7957-4e36-9c6c-d48de426829d",
+    "data": [
+      {
+        "text": "Mi",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " nombre ",
+        "userDefined": false
+      },
+      {
+        "text": "es",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "Virginia",
+        "meta": "@name",
+        "alias": "name",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  },
+  {
+    "id": "c20f09f3-0332-43df-89fb-95725d95d71a",
+    "data": [
+      {
+        "text": "me quiero registrar",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "es",
+    "updated": 0
+  }
+]

@@ -1,0 +1,43 @@
+{
+  "id": "96633ac8-1ecd-45db-86c2-6ce2a164d26d",
+  "parentId": "7596d938-cb90-4720-bedc-6371da899941",
+  "rootParentId": "7596d938-cb90-4720-bedc-6371da899941",
+  "name": "ShowRSVP",
+  "auto": true,
+  "contexts": [
+    "ShowRSVP-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "ShowRSVP",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "es-419",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
